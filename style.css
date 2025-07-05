@@ -11,13 +11,27 @@ body {
 }
 
 .main {
+    width: 500px;
+    background-color: rgb(241, 240, 240);
+    margin: 2em auto;
+    border-radius: 1.5px;
+}
+
+.contents {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: 2em auto;
-    background-color: rgb(241, 240, 240);
-    padding: 1em;
-    border-radius: 1.5px;
+    padding: 3em;
+    padding-bottom: 0
+}
+
+.main .img {
+    width: 100%;
+    height: 200px;
+    background-image: url('e87abb5b9a274d9db43bcda64d30a5a7.png');
+    background-position: top;
+    background-size: 110%;
+    margin: 0;
+    padding: 0;
 }
 
 .heading {
@@ -61,7 +75,8 @@ table {
 }
 
 td {
-    padding: 5px;
+    padding: 12px;
+    font-size: 0.9em;
 }
 
 tfoot {
@@ -72,4 +87,8 @@ tfoot {
 
 b {
     font-weight: 800;
+}
+
+td:nth-child(2) {
+    text-align: right;
 }
