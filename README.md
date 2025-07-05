@@ -1,0 +1,1 @@
+# miracle-receipt-template
